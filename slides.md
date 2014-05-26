@@ -3,14 +3,13 @@
 
 
 
-# Another
-```vhdl
-a <= b + c;
-process(a, b, c)
-begin
-b <= c + d;
-end process;
-```
+# The Idea
+Biology --> pH
+pH --> IBM Silicon NanoWire
+IBM Silicon NanoWire --> Voltage
+Voltage --> A/D
+A/D --> $/mu$Controller
+$/mu$Controller --> Display!
 
 
 # Another
