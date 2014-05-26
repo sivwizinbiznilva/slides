@@ -24,8 +24,7 @@ $$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
 
 
 
-# pH $\unicode{8594}$ 
-# IBM Silicon NanoWire
+## pH $\unicode{8594}$ IBM Silicon NanoWire
 - some
 - list
 
@@ -42,7 +41,6 @@ $$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
 
 
 
-# $\mu$Controller $\unicode{8594}$ 
-# Display!
+## $\mu$Controller $\unicode{8594}$ Display!
 
 
