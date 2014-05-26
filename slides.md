@@ -4,17 +4,17 @@
 
 
 # The Idea
-Biology --> pH
+Biology $\unicode{8594}$ pH
 
-pH --> IBM Silicon NanoWire
+pH $\unicode{8594}$ IBM Silicon NanoWire
 
-IBM Silicon NanoWire --> Voltage
+IBM Silicon NanoWire $\unicode{8594}$ Voltage
 
-Voltage --> A/D
+Voltage $\unicode{8594}$ A/D
 
-A/D --> $\mu$Controller
+A/D $\unicode{8594}$ $\mu$Controller
 
-$\mu$Controller --> Display!
+$\mu$Controller $\unicode{8594}$ Display!
 
 
 # Another
