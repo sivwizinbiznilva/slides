@@ -4,44 +4,49 @@
 
 
 # The Idea
-1. Biology $\unicode{8594}$ pH
+1. Biology $\unicode{10140}$ pH
 
-2. pH $\unicode{8594}$ IBM Silicon NanoWire
+2. pH $\unicode{10140}$ IBM Silicon NanoWire
 
-3. IBM Silicon NanoWire $\unicode{8594}$ Voltage
+3. IBM Silicon NanoWire $\unicode{10140}$ Voltage
 
-4. Voltage $\unicode{8594}$ A/D
+4. Voltage $\unicode{10140}$ A/D
 
-5. A/D $\unicode{8594}$ $\mu$Controller
+5. A/D $\unicode{10140}$ $\mu$C
 
-6. $\mu$Controller $\unicode{8594}$ Display!
-
-
-
-# Biology $\unicode{8594}$ pH
-
-$$-b \pm \sqrt{b^2 - 4ac} \over 2a$$
+6. $\mu$C $\unicode{10140}$ Display!
 
 
 
-## pH $\unicode{8594}$ IBM Silicon NanoWire
-- some
-- list
+# Biology $\unicode{10140}$ pH
+- Did we ever figure out where to get arsenic?
+- Characterize pH curve 
+	- Cliamed vs Experimental
 
 
 
-## IBM Silicon NanoWire $\unicode{8594}$ Voltage
+## pH $\unicode{10140}$ IBM Silicon NanoWire
+- Compare dynamic range of pH and nanowire input
+- What can we do if they're not compatible?
 
 
 
-# Voltage $\unicode{8594}$ A/D
+## IBM Silicon NanoWire $\unicode{10140}$ Voltage
+- Characterize voltage to pH curve
+	- Cliamed vs Experimental
 
 
 
-# A/D $\unicode{8594}$ $\mu$Controller
+# Voltage $\unicode{10140}$ A/D
+- Will we need a transducer interface?
+	- If so, include design.
 
 
 
-## $\mu$Controller $\unicode{8594}$ Display!
+# A/D $\unicode{10140}$ $\mu$C
+- What $\mu$C should we use?
+- How do we want to display our output?
 
 
+
+# $\mu$C $\unicode{10140}$ Display!
