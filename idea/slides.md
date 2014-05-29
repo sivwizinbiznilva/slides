@@ -23,7 +23,7 @@ Dr. Douglas Densmore
 
 # Motivation
 ### Digital Electronics are good at stuff
-- Reliability
+- [Reliability](http://nepp.nasa.gov/workshops/etw2013/talks/Wed_June12_2013/0900_Hillman_Reliability%20of%20Digital%20Electronics.pdf)
 - Parallelism
 - Flexibility
 - Cost
@@ -33,7 +33,7 @@ Dr. Douglas Densmore
 
 
 # Motivation
-### Digital Electronics are __not__ good at stuff
+### Digital Electronics are *__not__* good at stuff
 - Adapting
 - Surviving
 - Sensing
