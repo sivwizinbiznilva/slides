@@ -20,6 +20,10 @@
 6. $\mu$C $\unicode{10140}$ Display!
 
 
+![flowgraph](flowgraph.jpg)
+Courtesy [Dorothee Grieshaber](http://en.wikipedia.org/wiki/Biosensor)
+
+
 
 # Biology $\unicode{10140}$ pH
 - Did we ever figure out where to get arsenic?
