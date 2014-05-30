@@ -22,18 +22,19 @@ Dr. Douglas Densmore
 
 
 # Motivation
-### Digital Electronics are good at stuff
+### Digital Electronics\* are good at stuff
+##### \* ex. Microcontroller, DSP, GPU, FPGA, ASIC, etc
 - [Reliability](http://nepp.nasa.gov/workshops/etw2013/talks/Wed_June12_2013/0900_Hillman_Reliability%20of%20Digital%20Electronics.pdf)
 - Parallelism
 - Flexibility
 - Cost
 - Power
-- Development Time
+- [Development Time](http://www.eecg.toronto.edu/~jayar/pubs/kuon/kuontcad06.pdf)
 - Modularity
 
 
 # Motivation
-### Digital Electronics are *__not__* good at stuff
+### Digital Electronics are **not** good at stuff
 - Adapting
 - Surviving
 - Sensing

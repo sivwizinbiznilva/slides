@@ -1,5 +1,8 @@
-# Bridging the Gap
-## Ryan Silva 
+## Bridging the Gap:
+### Synthetic Biology to Electronics
+#### *Tentative Plan*
+#### *August - December 2014*
+### __Ryan Silva__
 
 
 
