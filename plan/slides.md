@@ -34,6 +34,7 @@ Courtesy [Dorothee Grieshaber](http://en.wikipedia.org/wiki/Biosensor)
 
 ## pH $\unicode{10140}$ IBM Silicon NanoWire
 - How can I acquire a few of these devices??? 
+	- Are they expensive?
 - Compare dynamic range of pH and nanowire input
 - What can we do if they're not compatible?
 
