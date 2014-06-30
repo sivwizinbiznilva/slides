@@ -19,6 +19,8 @@ Dr. Douglas Densmore
 - Sensing
 - Producing
 - Hiding
+- Self-Powered!
+- $\mu$m Scale
 
 
 # Motivation
@@ -40,6 +42,7 @@ Dr. Douglas Densmore
 - Sensing
 - Producing
 - Hiding
+- Power at the $\mu$m scale
 
 
 # Motivation
@@ -51,7 +54,7 @@ Dr. Douglas Densmore
 
 - Microcontroller vs FPGA vs ASIC
 	- vs Bioelectronics?
-
+		- Biological H/W acceleration?
 
 
 ## Interfacing Biology and Electronics
@@ -88,6 +91,23 @@ Dr. Douglas Densmore
 	- Anything else EE is good at
 - Maybe we can outsource a *__standard__* signal from biology to EE?
 	- Computational flexibility!
+
+
+
+## Formal Metrics
+### Microcontroller
+
+- Power
+- Area
+- Throughput
+- Area Efficiency
+
+
+## Formal Metrics
+### Biology
+
+- Metabolic Consumption
+- Lifecycle of Cell
 
 
 

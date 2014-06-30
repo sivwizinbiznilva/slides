@@ -6,6 +6,17 @@
 
 
 
+# Why?
+- Biological sensors are good at detecting things that ECE sensors are not
+- Output of sensors is cumbersome or expensive
+	- Cumbersome - Arsenic Sensor visual pH color test
+	- Expensive and Cumbersome - [Electrochemical Impedance
+	  Spectroscopy](http://www.sciencedirect.com/science/article/pii/S0956566314002310)
+		- Voltage sweep...not exactly field deployable (is this even
+		  the goal?)
+
+
+
 # The Idea
 1. Biology $\unicode{10140}$ pH
 
