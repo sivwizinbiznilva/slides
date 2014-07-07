@@ -12,7 +12,7 @@
 
 
 ## Expensive and Cumbersome
-- Expensive and Cumbersome - [Electrochemical Impedance
+- [Electrochemical Impedance
   Spectroscopy](http://www.sciencedirect.com/science/article/pii/S0956566314002310)
 	- Voltage sweep...not exactly field deployable (is this even the goal?)
 
