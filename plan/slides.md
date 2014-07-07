@@ -36,6 +36,23 @@ Courtesy [Dorothee Grieshaber](http://en.wikipedia.org/wiki/Biosensor)
 
 
 
+## Formal Metrics
+### Microcontroller
+
+- Power
+- Area
+- Throughput
+- Area Efficiency
+
+
+## Formal Metrics
+### Biology
+
+- Metabolic Consumption
+- Lifecycle of Cell
+
+
+
 # Biology $\unicode{10140}$ pH
 - Did we ever figure out where to get arsenic?
 - Characterize pH curve 
