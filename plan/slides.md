@@ -6,20 +6,36 @@
 
 
 
-# Why?
+## Why?
 - Biological sensors are good at detecting things that ECE sensors are not
-- Output of sensors is cumbersome or expensive
-	- Cumbersome - Arsenic Sensor visual pH color test
-	- Expensive and Cumbersome - [Electrochemical Impedance
-	  Spectroscopy](http://www.sciencedirect.com/science/article/pii/S0956566314002310)
-		- Voltage sweep...not exactly field deployable (is this even
-		  the goal?)
+- Output of sensors is cumbersome and/or expensive
 
 
-![IV Curve](IV.png)
+## Expensive and Cumbersome
+- Expensive and Cumbersome - [Electrochemical Impedance
+  Spectroscopy](http://www.sciencedirect.com/science/article/pii/S0956566314002310)
+	- Voltage sweep...not exactly field deployable (is this even the goal?)
 
-S. Zafar et al "Optimization of pH sensing using silicon nanowire FET with
-HfO<sub>2</sub> as the sensing surface," *Nanotechnology*, vol 22, no. 40, p. 405501, 2011.
+		![IV Curve](IV.png)
+
+####S. Zafar et al "Optimization of pH sensing using silicon nanowire FET withHfO<sub>2</sub> as the sensing surface," *Nanotechnology*, vol 22, no. 40, p. 405501, 2011.
+
+
+##Just Cumbersome 
+- [Arsenic Sensor visual pH color test](http://arsenicbiosensor.org/fieldwork.html)
+
+
+> While the kits did provide some level of information regarding arsenic
+> contamination, we found that their use, handling and information readout to be
+> cumbersome and not particularly suitable for local testing. This opinion was
+> corroborated by Kunawari villagers who stated that they had performed this test
+> before but were not enthusiastic about continuous or repeated testing...we
+> asked them what they would prefer in regards to operation and readout...They
+> stated that they would like a test that is as simple as possible
+> to carry out, with the minimum number of steps and user input. They also
+> mentioned that they feel a colorimetric output is suitable but that they would
+> prefer a numeric scale instead of a colour gradient such as the current kits
+> employ. 
 
 
 
@@ -59,6 +75,12 @@ Courtesy [Dorothee Grieshaber](http://en.wikipedia.org/wiki/Biosensor)
 
 
 
+## Informal Metric
+- Can we make this thing practical?
+	- Is that even a good goal?
+
+
+
 # Biology $\unicode{10140}$ pH
 - Did we ever figure out where to get arsenic?
 - Characterize pH curve 
@@ -72,6 +94,10 @@ Courtesy [Dorothee Grieshaber](http://en.wikipedia.org/wiki/Biosensor)
 	- How many can I get?
 - Compare dynamic range of pH and nanowire input
 - What can we do if they're not compatible?
+	- Plenty of options for EE to EE incompatibilities:
+		- Transducer Interface
+		- Op amp, etc.
+	- Not sure about chemical to EE incompatibilities
 
 
 
@@ -82,7 +108,7 @@ Courtesy [Dorothee Grieshaber](http://en.wikipedia.org/wiki/Biosensor)
 
 
 # Voltage $\unicode{10140}$ A/D
-- Will we need a transducer interface?
+- Will we need a transducer interface? (Remember those EE to EE problems...)
 	- If so, include design.
 
 
