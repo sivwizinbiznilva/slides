@@ -1,4 +1,4 @@
-## Bridging the Gap:
+## Connecting Ideas:
 ### Synthetic Biology to Electronics
 #### *Tentative Plan*
 #### *August - December 2014*
