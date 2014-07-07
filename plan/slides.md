@@ -16,6 +16,12 @@
 		  the goal?)
 
 
+![IV Curve](IV.png)
+
+S. Zafar et al "Optimization of pH sensing using silicon nanowire FET with
+HfO<sub>2</sub> as the sensing surface," *Nanotechnology*, vol 22, no. 40, p. 405501, 2011.
+
+
 
 # The Idea
 1. Biology $\unicode{10140}$ pH
