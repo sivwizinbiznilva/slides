@@ -47,3 +47,7 @@ That doesn't answer the question:
 - With 24 nanowires in a 9mm package, you can sense 24 different things that
   use pH as a modulated output mechanism
 
+#Feedback from Swapnil
+- The problem isn't that cellular logic is frivolous
+ - Cellular logic is quite useful _in vivo_
+- Perhaps a novel approach would be useful cases for cellular logic _in vitro_?
