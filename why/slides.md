@@ -1,6 +1,7 @@
 #Bridging the Gap:
 ##Synthetic Biology to Electronics
-###*Why do Logic in Cells?*
+###**Why do Logic in Cells?**
+####*In vitro* vs *In vivo* vs *In silico*
 
 
 
