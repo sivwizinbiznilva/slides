@@ -1,7 +1,7 @@
 #Bridging the Gap:
 ##Synthetic Biology to Electronics
 ###**Why do Logic in Cells?**
-####*In vitro* vs *In vivo* vs *In silico*
+####*In situ* deployment of *In vitro* vs *In vivo* vs *In silico* sensors...lol
 
 
 
