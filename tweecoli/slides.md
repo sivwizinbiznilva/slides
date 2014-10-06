@@ -21,7 +21,6 @@ _Ryan Silva_
 - Parallelism
 - Flexibility
 - Cost
-- Power
 - [Development Time](http://www.eecg.toronto.edu/~jayar/pubs/kuon/kuontcad06.pdf)
 - Modularity
 
@@ -32,7 +31,7 @@ _Ryan Silva_
 - Sensing
 - Producing
 - Hiding
-- Power at the $\mu$m and nm scale
+- Producing Power
 
 
 ### What if?
@@ -65,6 +64,7 @@ _Ryan Silva_
 ### What are the benefits?
 - Biology may be able to outperform EE:
 	- Conserving and generating power 
+	- Sensing biological phenomena 
 - EE may be able to outperform biology:
 	- Development time and overhead
 	- Flexibility
@@ -285,16 +285,15 @@ Embedded Device $\rightarrow$ Output Signal
 1. Obtain pH sensor $\unicode{10004}$
 2. Integrate sensor with embedded platform $\unicode{10004}$
 2. Culture biosensor in lab
-3. Characterize biosensor
-4. Characterize pH sensor
-4. Integrate biosensor and pH sensor
+3. Characterize biosensor*
+4. Characterize pH sensor*
+4. Integrate biosensor and pH sensor*
+
+#####*The order in which we do these is totally debatable
 
 
 ##Possible Parallel Product:
 - Document Design Process
 	- Many interesting directions:
 		- Traditional biological circuit design
-		- Black Box Modeling [[1]](http://www.nature.com/nchembio/journal/v10/n7/full/nchembio.1559.html#f3) using a Biological Function Generator [[2]](http://www.nature.com/nmeth/journal/v11/n4/full/nmeth.2884.html)  ## Designing a Modular Electronic Reader
-
-
-
+		- Black Box Modeling [[1]](http://www.nature.com/nchembio/journal/v10/n7/full/nchembio.1559.html#f3) using a Biological Function Generator [[2]](http://www.nature.com/nmeth/journal/v11/n4/full/nmeth.2884.html)  
