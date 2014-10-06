@@ -88,7 +88,7 @@ _Ryan Silva_
 ##What do we do now?
 #### Designing a Modular Electronic Reader
 0. Integrate systems known to work
-	- [Arsenic Sensor](http://www.ncbi.nlm.nih.gov/books/NBK84465/) + pH Sensor + Microcontroller
+	- Biological Sensor + pH Sensor + Microcontroller
 1. Generalize the architecture
 	- Put other sensors "in front" of arsenic sensor?
 2. Exploit possible applications
