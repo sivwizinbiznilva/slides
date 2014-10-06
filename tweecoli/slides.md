@@ -1,52 +1,127 @@
 #Bridging the Gap:
-##Synthetic Biology to Electronics
-###**Why do Logic in Cells?**
-####*In situ* deployment of *In vitro* vs *In vivo* vs *In silico* sensors...lol
+##Synthetic Biology $\leftrightarrow$ Electronics
+_Ryan Silva_
 
 
 
-##The elephant in the room:
-##Why are we doing this?
-- Why do logic in cells when logic in electronics works great?
- - I get that cells can be factories, but why use them to do computation?
-- Possible answer: Because cells can detect things EE can't 
+##Why is this relevant to us?
+### Biology is good at stuff
+- Adapting
+- Surviving
+- Sensing
+- Producing
+- Hiding
+- Self-Powered!
+- $\mu$m and nm Scale
 
 
-##Cells for Sensing? 
-That doesn't answer the question:
-##Why do _**logic**_ in cells?
+### Digital Electronics\* are good at stuff
+##### \* ex. Microcontroller, DSP, GPU, FPGA, ASIC, etc
+- [Reliability](http://nepp.nasa.gov/workshops/etw2013/talks/Wed_June12_2013/0900_Hillman_Reliability%20of%20Digital%20Electronics.pdf)
+- Parallelism
+- Flexibility
+- Cost
+- Power
+- [Development Time](http://www.eecg.toronto.edu/~jayar/pubs/kuon/kuontcad06.pdf)
+- Modularity
 
 
-##Answer(?): Because discerning outputs of SynBio circuits is hard
-- Outputs are hard to read! 
-- Examples:
- - Microscopy
- - Giant purple thing in the wetlab (LASERS)
- - Visual indicators (is this blue or light blue...)
+### Digital Electronics are **not** good at stuff
+- Adapting
+- Surviving
+- Sensing
+- Producing
+- Hiding
+- Power at the $\mu$m and nm scale
 
 
-###What if:
-- What if you had a large array of biosensors that you were using to answer one
-  or even multiple questions?
-- Example:
- - Is this water safe to drink?
- - Has the cancer metastasized?
- - Is the air quality unhealthy?
-- What if this device was field worked _in situ_?
+### What if?
+- Difficult things for biology may be easier for EE
+- Difficult things for EE may be easier for biology
+
+- What if we could have it all??
+
+- Microcontroller vs FPGA vs ASIC
+	- vs Bioelectronics?
+		- Biological H/W acceleration?
 
 
-###Cellular logic becomes very useful because:
-- Without logic at the cellular level, you must provide an electrochemical
-  transducer for the output of each signal
- - Granted, this isn't a big deal if you have Sufi's device that contains 24
-   nanowire sensors...which could be a cool concept on its own!
 
+## Interfacing Biology and Electronics
+### What does this mean?
+- Initial goal: To use biology as a sensor
+- Requirements
+	- Transducers
+		- Convert biological phenomena to EE ([lots](http://stacks.iop.org/Nano/22/405501) [of](http://www.sciencedirect.com/science/article/pii/0250687483850835) [research](http://dx.doi.org/10.1016%2F0956-5663%2893%2980024-J))
+		- Convert EE to biological phenomena?
+			- [Light](http://www.taborlab.rice.edu/)
+			- [Shear Stress](http://2010.igem.org/Team:MIT_mammalian_Mechanosensation)
+			- [Temperature](http://jb.asm.org/content/185/22/6609.full)
+	- Does the application warrant it?
+		- Could the job be done just using EE or just using biology?
+
+
+## Interfacing Biology and Electronics
+### What are the benefits?
+- Biology may be able to outperform EE:
+	- Conserving and generating power 
+- EE may be able to outperform biology:
+	- Development time and overhead
+	- Flexibility
+	- Modularity
+	- Readablility of results
+		- Giant purple thing in wetlab vs LCD screen
+		- Visual indicators (blue or light blue?) vs
+		  $\unicode{128516}$/$\unicode{9785}$ 
+
+
+## Interfacing Biology and Electronics
+### Bottom Line
+- Can we outsource from biology to EE?
+	- Computation
+	- Decision-Making
+	- Anything else EE is good at
+- Maybe we can create a reliable and interpretable EE signal from biology?
+	- Computational flexibility!
+
+
+##What do we do now?
+#### Designing a Modular Electronic Reader
+0. Integrate systems known to work
+	- [Arsenic Sensor](http://www.ncbi.nlm.nih.gov/books/NBK84465/) + pH Sensor + Microcontroller
+1. Generalize the architecture
+	- Put other sensors "in front" of arsenic sensor?
+2. Exploit possible applications
 
 
 ##Introducing:
 #TweeColi
 ###Possible Headline:
 ####"A single-celled organism probably has a larger social media footprint than you"
+
+
+## Why should Grandma Care?
+#####Other than the trash-talking headline
+###What if:
+- What if you had a large array of biosensors that could answer one
+  or even multiple questions?
+- Example:
+ - Is this water safe to drink?
+ - Has the cancer metastasized?
+ - Is the air quality unhealthy?
+- What if this device worked _in situ_?
+
+
+### [Medical Diagnostics in Austere Environs](http://www.oxcaht.org/)
+- Problem = Limited Resources
+	- Power
+	- Accessibility
+	- Harsh conditions
+- Bioelectronics
+	- Low power
+	- [Small, disposable, survivable sensors](http://arsenicbiosensor.org/index.html)
+	- Ubiquitous computing platform
+		- Mobile phone!
 
 
 
@@ -60,13 +135,23 @@ That doesn't answer the question:
 
 ##What is TweeColi?
 - Electronic feedback from the cellular level
+- A cute experiment but...
 
 
 ##Possible aims:
-- Bridges the gap between ECE and SynBio
+- First brick in the bridge between ECE and SynBio
 - A process and procedures experiment
- - Use a "Biological Function Generator" [[1]](http://www.nature.com/nmeth/journal/v11/n4/full/nmeth.2884.html) in order to generate a "phenomenological, or 'black box'" model [[2]](http://www.nature.com/nchembio/journal/v10/n7/full/nchembio.1559.html#f3) 
 
+
+
+##TweeColi 1.0
+Input Signal $\rightarrow$ Flask
+
+Flask $\rightarrow$ pH Probe
+
+pH Probe $\rightarrow$ Embedded Device
+
+Embedded Device $\rightarrow$ Output Signal
 
 
 ##Where could TweeColi go?
@@ -77,17 +162,20 @@ That doesn't answer the question:
 	- "I found a strain of the flu virus I don't recognize. Did you get a flu shot? I recommend you stay home today" $\unicode{8592}$ More than 120 chars :-/
 
 
-## Applications (Brainstorming!)
-### [Medical Diagnostics in Austere Environs](http://www.oxcaht.org/)
-- Problem = Limited Resources
-	- Power
-	- Accessibility
-	- Harsh conditions
-- Bioelectronics
-	- Low power
-	- [Small, disposable, survivable sensors](http://arsenicbiosensor.org/index.html)
-	- Ubiquitous computing platform
-		- Mobile phone!
+##Where Could TweeColi 1.0 go?
+#####Other than tweeting...
+####Wireless transmitting bacteria!
+- Experimentation timesaver
+- Microfluidic control?
+```
+wait(2000);
+	setValve(14,HIGH);
+	setValve(2,LOW);
+wait(1000);
+	setValve(14,LOW); 
+wait(Tweecoli())
+	setValve(14,HIGH);
+```
 
 
 
@@ -139,6 +227,7 @@ That doesn't answer the question:
 ####New Capabilities
 - Continuously read pH via Raspberry Pi
 - Lab Safety Training
+- Clearer direction
 
 
 ###Where will TweeColi be in two weeks?
@@ -154,6 +243,17 @@ That doesn't answer the question:
 ####New Capabilities
 - Trigger tweet when pH reaches a threshold 
 - Biological circuit ready to test?
+
+
+##TweeColi 2.0?
+Input Signal $\rightarrow$ $\mu$F Chip 
+
+$\mu$F Chip $\rightarrow$ IBM Si nWire 
+
+IBM Si nWire $\rightarrow$ Embedded Device (Mobile Phone?)
+
+Embedded Device $\rightarrow$ Output Signal
+
 
 
 
@@ -179,8 +279,22 @@ That doesn't answer the question:
 
 
 
-##The way forward
+
+## Short Term Plan
+#### **Goals** for this semester. 
+1. Obtain pH sensor $\unicode{10004}$
+2. Integrate sensor with embedded platform $\unicode{10004}$
+2. Culture biosensor in lab
+3. Characterize biosensor
+4. Characterize pH sensor
+4. Integrate biosensor and pH sensor
+
+
+##Possible Parallel Product:
 - Document Design Process
-- Many interesting directions:
- - Traditional biological circuit design
- - Black Box Modeling [[1]](http://www.nature.com/nchembio/journal/v10/n7/full/nchembio.1559.html#f3) using a Biological Function Generator [[2]](http://www.nature.com/nmeth/journal/v11/n4/full/nmeth.2884.html)  
+	- Many interesting directions:
+		- Traditional biological circuit design
+		- Black Box Modeling [[1]](http://www.nature.com/nchembio/journal/v10/n7/full/nchembio.1559.html#f3) using a Biological Function Generator [[2]](http://www.nature.com/nmeth/journal/v11/n4/full/nmeth.2884.html)  ## Designing a Modular Electronic Reader
+
+
+
