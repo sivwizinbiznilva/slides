@@ -1,3 +1,14 @@
+##TweeColi 1.0
+- Build a transducer
+ - Correctly interpret in EE a real-world event in bio
+
+
+
+##Methodology Discussion
+- Influenced heavily by the Tabor Lab
+- Instead of characterization, focus on an end-to-end experiment
+
+
 ##Here's what I said last time:
 
 
@@ -59,5 +70,4 @@ Design 4:
 
 
 
-##Methodology Discussion
-- Influenced heavily by the Tabor Lab
+
