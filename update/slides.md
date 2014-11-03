@@ -1,73 +1,25 @@
+##TweeColi 2.0
+
+
+
+![Napkin Design](WirelessBacteria_Napkin.jpeg)
+
+
+
 ##TweeColi 1.0
-- Build a transducer
- - Correctly interpret in EE a real-world event in bio
+Jar
 
 
 
-##Methodology Discussion
-- Influenced heavily by the Tabor Lab
-- Instead of characterization, focus on an end-to-end experiment
-
-
-##Here's what I said last time:
-
-
-###Where will TweeColi be in two weeks?
-####New Components
-- Wetlab
- - Flasks
- - Stir Plate
- - Stir Bars
-- Probe Reconditioning Kit
-
-
-###Where will TweeColi be in two weeks?
-####New Capabilities
-- Trigger tweet when pH reaches a threshold 
-- Biological circuit ready to test?
+##TweeColi 2.0
+RFID?
 
 
 
-##Here's where we actually are:
-
-
-####New Components
-- No new components
-
-
-####New Capabilities
-- SSH-able pH sensor interface in wetlab
-- Three-point calibration of pH probe
+##Passive RFID System
+![system](rfid_system.png)
 
 
 
-##Here's where we're going:
-
-
-###Design Meetings (Swapnil, Traci, Ryan)
-#### 10 Oct and 17 Oct
-- Tandem promoter pair (pTet-pBAD)
-
-
-Design 1:
-
-![Design 1](Design1.png)
-
-
-Design 2:
-
-![Design 2](Design2.png)
-
-
-Design 3:
-
-![Design 3](Design3.png)
-
-
-Design 4:
-
-![Design 4](Design4.png)
-
-
-
-
+##Passive RFID Signal
+![signal](rfid_signal.jpg)
