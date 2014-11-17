@@ -40,6 +40,13 @@ RFID?
 ![DET](DET.jpg)
 
 
+#Questions:
+1. Have we determined if Biology is complex?
+3. If not, we may be designing it wrong 
+  - Are we using scientific experiments as engineering tests?
+2. If so, are we designing it as such?
+
+
 #The Process
 - There are two processes classifications that we can consider for engineering bioelectronics:
  1. The Engineering Method
@@ -113,12 +120,14 @@ RFID?
 
 
 ##Experiment (Science)
-- Prove a hypothesis
+- Accept/Reject a hypothesis. i.e. "Ask nature"
+  - Recreate conditions under which an observation can be made
+  - [Replicability is not Reproducibility](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.149.5692) nor is it indicative of reliability
 - Acceptable: Results can only be duplicated in a controlled environment
 
 
 ##Test (Engineering)
-- Does the design meet the requirements?
+- Does the design meet the requirements reliably?
   - Two phases: DT and OT
 
 
