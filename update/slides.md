@@ -167,3 +167,36 @@ RFID?
    1. Can we create a simpler genetic circuit?
    2. Should we just consider the system *complex*?
    3. Can we do something else?
+
+
+
+# 16 Dec 2014
+
+
+### Philosophy of Science
+- Example articles
+- How to design with complexity in mind
+- Must decide which engineering design technique to eliminate
+ - Modularity
+ - Regularity
+ - Hierarchy
+ - Discipline
+ - Abstraction
+- Begin by analyzing how the system was initially designed
+ - Case study: x86 architecture
+ - Very tricky (and not without controversy) for Biology
+
+
+### Philosophy of Science and SynBio
+- Example articles
+- Eliminate the need for modularity [Lewens 2013](http://ryanjsilva.com/papers/Lewens2013.pdf)
+
+
+### Philosophy of Science and SynBio
+### WITH DATA!
+- No one is doing this
+
+
+### How does this play into my current direction?
+- Test modularity by working at the extreme ends of the design (I/O)
+- Document findings
