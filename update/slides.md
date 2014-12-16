@@ -175,9 +175,9 @@ RFID?
 
 ###Bottom Line Up Front
 - Demo report
-- Tech
-- Process
-- The fusion of the two
+- One-Two punch
+  - Tech Contribution
+  - Epistemic Contribution
 
 
 ###Demo Report
@@ -197,19 +197,84 @@ RFID?
 | Biological monitoring using RFID | Years | 
 
 
-###Process
+###Epistemic Contribution
 - SynBio's Existential Crisis
 - Importance of semantics
 - Philosophy of Science **with data**
 
 
-### SynBio's Existential Crisis
+###SynBio's Existential Crisis
+- It's been 14 years since the repressilator and switchable regulatory network
 - What defines success in synbio?
   - Acquired knowledge?
   - Making things?
   - Solving problems?
+- Cause vs Control
 - Science vs Technoscience [[Nordmann 2014]](http://ryanjsilva.com/papers/Nordmann2014.pdf) vs Engineering 
 
+
+###Semantics Are Important!
+- Different processes
+- Different goals
+- Different design considerations
+- Different ways of managing complexity
+- Let's formally choose to abide by one (Engineering)
+
+
+###Philosophy of Science
+- Examines epistemic values
+- Data is derived from publications in the field
+- Information flows one way 
+  - Field of research $\unicode{8594}$ Philosophy of Science
+
+
+###Philosophy of Science...
+###...With Experimental Data
+- Let's complete the loop
+  - Leverage their analyses to an actual design and document findings
+  - Perhaps implement a method for complex design automation?
+- No one is doing this
+- Use a purely engineering approach to build a cool thing
+- At least two contributions:
+  - Document results as an engineering paper 
+  - Document and comment on epistemic contributions as a Philosophy of Science paper 
+
+
+### Nature 
+> As it develops along this and other paths, synthetic biology itself will demand more by way of new fundamental biological knowledge — quantitative, systematic, computational and biophysical. And conversely, one of the deepest lessons from these first ten years is that **biological knowledge will require synthetic approaches** if it is to become a mature and reasonably predictive science. 
+
+Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
+
+
+###How did we get so confused?
+- The quote was not "What I can create, I do understand"
+- The quote was "What I cannot create, I do not understand" - Richard Feynman
+
+
+![Feynman](Feynman.jpg)
+
+
+### Problems 
+- The bar for reporting may not be conducive to engineering 
+  - In what sense is a repressilator an "experiment"?
+  - Trying to satisfy both criteria 
+    - Mostly science, with a few engineering terms sprinkled in
+- Let's justify our position and then _**own**_ it
+  - Maybe that will help restore the levels of scrutiny to levels appropriate with what we're trying to do
+    - ENGINEER biology 
+
+
+### How does this play into my current direction?
+- Test modularity by working at the extreme ends of the design (I/O)
+- Document findings
+
+
+### Possible applications of TweeColi
+- Automation of distributed irrational design testing
+  - Three labs build a device that claims to have function X
+  - Run TweeColi
+  - Interpret results at processing node 
+###Engineering complex systems 
 - How to design with complexity in mind
 - Must decide which engineering design technique to eliminate
  - Modularity
@@ -251,42 +316,3 @@ RFID?
   - Cause vs Control
 - Let's not confuse managing complexity with engineering!
   - It is possible to "properly" engineer a system that is not modular, hierarchical, etc
-
-
-### The issue
-- What if, instead of simply commenting on process, we conducted an "experiment" using an established engineering design methodology to build a biological device?
-- This is for the group that believes biology can be engineered and want to build things with it
-- Barriers:
-  - The bar for reporting results is prohibitively high
-  - Trying to satisfy both criteria 
-    - Mostly science, with a few engineering terms sprinkled in
-- Let's justify our position and then _**own**_ it
-  - Maybe that will help restore the levels of scrutiny to levels appropriate with what we're trying to do
-    - ENGINEER biology 
-  - The quote was not "What I can create, I do understand"
-  - The quote was "What I cannot create, I do not understand" - Richard Feynman
-
-
-![Feynman](Feynman.jpg)
-
-
-### Practical Prediction
-- Will such an approach get my results published?
-  - I don't know
-  - Precedent is not encouraging but let's let Nature weigh in:
-
-> As it develops along this and other paths, synthetic biology itself will demand more by way of new fundamental biological knowledge — quantitative, systematic, computational and biophysical. And conversely, one of the deepest lessons from these first ten years is that **biological knowledge will require synthetic approaches** if it is to become a mature and reasonably predictive science. 
-
-Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
-
-
-### How does this play into my current direction?
-- Test modularity by working at the extreme ends of the design (I/O)
-- Document findings
-
-
-### Possible applications of TweeColi
-- Automation of distributed irrational design testing
-  - Three labs build a device that claims to have function X
-  - Run TweeColi
-  - Interpret results at processing node 
