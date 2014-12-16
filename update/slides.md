@@ -173,8 +173,43 @@ RFID?
 # 16 Dec 2014
 
 
-### Philosophy of Science
-- Example articles
+###Bottom Line Up Front
+- Demo report
+- Tech
+- Process
+- The fusion of the two
+
+
+###Demo Report
+- Current TweeColi capabilities
+  - Detect distributed biological events
+  - Report events
+  - Collect and interpret events
+  - Perform logic using events as inputs
+  - Actuate a response mechanism based on logic operation
+
+
+###Tech Future
+| Project | Timeline |
+| :-: | :-: |
+| Practical applications for TweeColi | Days |
+| Biological GSM network using OpenBTS | Weeks to Months |
+| Biological monitoring using RFID | Years | 
+
+
+###Process
+- SynBio's Existential Crisis
+- Importance of semantics
+- Philosophy of Science **with data**
+
+
+### SynBio's Existential Crisis
+- What defines success in synbio?
+  - Acquired knowledge?
+  - Making things?
+  - Solving problems?
+- Science vs Technoscience [[Nordmann 2014]](http://ryanjsilva.com/papers/Nordmann2014.pdf) vs Engineering 
+
 - How to design with complexity in mind
 - Must decide which engineering design technique to eliminate
  - Modularity
@@ -189,14 +224,69 @@ RFID?
 
 ### Philosophy of Science and SynBio
 - Example articles
+- Seem focused on balance of knowledge and power
+- Leverage their analyses to an actual design and document findings
+  - Perhaps implement a method for complex design automation
 - Eliminate the need for modularity [Lewens 2013](http://ryanjsilva.com/papers/Lewens2013.pdf)
 
 
 ### Philosophy of Science and SynBio
 ### WITH DATA!
 - No one is doing this
+- Example: In meteorology, if the model incorrectly predicts a certain type of weather what do we do? 
+  - Do we throw out the model? 
+  - Search for a new model? 
+  - Or do we accept, for the time being, that the current model is "good" but has finite resolution and reliability 
+    - Cold vs 30 degF 
+    - Bring an umbrella just in case vs two inches of precipitation at 11am tomorrow
+  - Are we using the model to learn about the atmosphere?
+  - Or are we using it to help us better live our lives?
+
+
+### Semantics are Important!
+- Let's try to stop semantical "hand waving" 
+  - Systems Biology vs Synthetic Biology
+  - Engineering vs Science vs Technoscience
+  - Basic vs Applied Science
+  - Cause vs Control
+- Let's not confuse managing complexity with engineering!
+  - It is possible to "properly" engineer a system that is not modular, hierarchical, etc
+
+
+### The issue
+- What if, instead of simply commenting on process, we conducted an "experiment" using an established engineering design methodology to build a biological device?
+- This is for the group that believes biology can be engineered and want to build things with it
+- Barriers:
+  - The bar for reporting results is prohibitively high
+  - Trying to satisfy both criteria 
+    - Mostly science, with a few engineering terms sprinkled in
+- Let's justify our position and then _**own**_ it
+  - Maybe that will help restore the levels of scrutiny to levels appropriate with what we're trying to do
+    - ENGINEER biology 
+  - The quote was not "What I can create, I do understand"
+  - The quote was "What I cannot create, I do not understand" - Richard Feynman
+
+
+![Feynman](Feynman.jpg)
+
+
+### Practical Prediction
+- Will such an approach get my results published?
+  - I don't know
+  - Precedent is not encouraging but let's let Nature weigh in:
+
+> As it develops along this and other paths, synthetic biology itself will demand more by way of new fundamental biological knowledge — quantitative, systematic, computational and biophysical. And conversely, one of the deepest lessons from these first ten years is that **biological knowledge will require synthetic approaches** if it is to become a mature and reasonably predictive science. 
+
+Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 
 
 ### How does this play into my current direction?
 - Test modularity by working at the extreme ends of the design (I/O)
 - Document findings
+
+
+### Possible applications of TweeColi
+- Automation of distributed irrational design testing
+  - Three labs build a device that claims to have function X
+  - Run TweeColi
+  - Interpret results at processing node 
