@@ -274,6 +274,8 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
   - Three labs build a device that claims to have function X
   - Run TweeColi
   - Interpret results at processing node 
+
+
 ###Engineering complex systems 
 - How to design with complexity in mind
 - Must decide which engineering design technique to eliminate
@@ -316,3 +318,102 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
   - Cause vs Control
 - Let's not confuse managing complexity with engineering!
   - It is possible to "properly" engineer a system that is not modular, hierarchical, etc
+
+
+
+# 13 Jan 2015
+
+
+## Topology
+- Star Topology
+
+![Topology](topology.png)
+
+
+## System Requirements
+- Detect real-world changes in pH from physically separated input nodes
+- Detection ranges must be modifiable 
+- Input nodes must transmit a notification via the internet of the change in pH
+- The output and processing node must detect and interpret the change in pH from the input nodes.
+- The output node must perform a logical operation on the interpreted pH readings from the input nodes
+
+
+### Input Node
+- Detect distributed biological events
+- Modifiable detection ranges
+- Transmit a notification via the internet of biological anomaly 
+![Input Node](input.png)
+
+
+### Input Node Initialization
+1. Input chemical name for which the node will sense
+2. Input upper and lower steady-state pH bounds 
+  - i.e. pH bounds for no chemical present
+3. Input Twitter account to which the system will post results 
+
+
+### Input Node Operation
+- pH transition outside of operating range:
+  - Post single Twitter feed update in the form of: _chemical True timestamp_ 
+  - chemical can be aTc, Ara, etc.
+- pH returns to value within operating range:
+  - Post single Twitter feed update in the form of:_chemical False timestamp_
+
+
+### Output Node
+- Collect and interpret events
+- Perform logic using events as inputs
+- Actuate a response mechanism based on logic operation
+- Successfully tested for the following parameters:
+  - N=2
+  - XOR operation in FPGA
+  - LED as the output mechanism
+![Output Node](output.png)
+
+
+### Demo
+
+
+### Current Capabilities
+- Detect distributed biological events
+- Report events
+- Collect and interpret events
+- Perform logic using events as inputs
+- Actuate a response mechanism based on logic operation
+
+
+### Semester Goals
+- Add the following capabilities:
+  - FPGA Partial Reconfiguration
+  - 3D print a custom chassis 
+  - Killer application for FPGA + RPi
+- Recreate the Voigt experiment
+- Create a system that does either:
+  1. Automation of distributed design verification 
+  2. [Environmental Diagnostics in Austere Environs](http://www.oxcaht.org/)
+
+
+### Distributed Design Verification 
+- Three labs build a device that claims to have function X
+- Run TweeColi
+- Interpret results at processing node 
+
+
+### Environmental Diagnostics in Austere Environs
+- Problem = Limited Resources
+  - Power
+  - Accessibility
+  - Harsh conditions
+- Bioelectronics
+  - Low power
+  - [Small, disposable, survivable sensors](http://arsenicbiosensor.org/index.html)
+  - Ubiquitous computing platform
+    - Mobile phone!
+
+
+### Individual Interests
+- If I woke up tomorrow and my system worked perfectly, what would it look like and what would it do?
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/23zN8FhjPns" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/tO1KJDOfeHE" frameborder="0" allowfullscreen></iframe>
