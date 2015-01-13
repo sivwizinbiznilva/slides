@@ -382,6 +382,14 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 - Actuate a response mechanism based on logic operation
 
 
+### Equipment Acquired during the Break
+- 25 Xilinx Vivado/ISE System Edition Licenses
+- Xilinx Partial Reconfiguration License
+- 2x Digilent Basys3 FPGA Development Boards
+- 1x Digilent ZedBoard
+- 1x Ettus Research E310 USRP
+
+
 ### Semester Goals
 - Add the following capabilities:
   - FPGA Partial Reconfiguration
