@@ -324,6 +324,14 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 # 13 Jan 2015
 
 
+### Individual Interests
+- If I woke up tomorrow and my system worked perfectly, what would it look like and what would it do?
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/23zN8FhjPns" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="420" height="315" src="//www.youtube.com/embed/tO1KJDOfeHE" frameborder="0" allowfullscreen></iframe>
+
+
 ## Topology
 - Star Topology
 
@@ -336,6 +344,17 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 - Input nodes must transmit a notification via the internet of the change in pH
 - The output and processing node must detect and interpret the change in pH from the input nodes.
 - The output node must perform a logical operation on the interpreted pH readings from the input nodes
+
+
+### Output Node
+- Collect and interpret events
+- Perform logic using events as inputs
+- Actuate a response mechanism based on logic operation
+- Successfully tested for the following parameters:
+  - N=2
+  - XOR operation in FPGA
+  - LED as the output mechanism
+![Output Node](output.png)
 
 
 ### Input Node
@@ -358,17 +377,6 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
   - chemical can be aTc, Ara, etc.
 - pH returns to value within operating range:
   - Post single Twitter feed update in the form of:_chemical False timestamp_
-
-
-### Output Node
-- Collect and interpret events
-- Perform logic using events as inputs
-- Actuate a response mechanism based on logic operation
-- Successfully tested for the following parameters:
-  - N=2
-  - XOR operation in FPGA
-  - LED as the output mechanism
-![Output Node](output.png)
 
 
 ### Demo
@@ -419,9 +427,8 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
     - Mobile phone!
 
 
-### Individual Interests
-- If I woke up tomorrow and my system worked perfectly, what would it look like and what would it do?
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/23zN8FhjPns" frameborder="0" allowfullscreen></iframe>
+#9 Feb 2015
 
-<iframe width="420" height="315" src="//www.youtube.com/embed/tO1KJDOfeHE" frameborder="0" allowfullscreen></iframe>
+
+![Design Flow](flow.png)
