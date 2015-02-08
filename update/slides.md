@@ -452,6 +452,7 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 - GPIO-limited Parallel Sensors
   - Significant advantage over other computational platforms
     - Sensor interfaces limited by PHY devices
+    - Even the Arduino's SotwareSerial Library has many [hardware limitations](http://arduino.cc/en/Reference/SoftwareSerial)
   - Drivers for UART, I2C, SPI, Direct IO
 - Hardware acceleration modules
 
