@@ -432,3 +432,30 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 
 
 ![Design Flow](flow.png)
+
+
+## Electronics Design Flow
+1. Specify computing hardware
+  - RPi, Arduino, PC, FPGA
+    - Each device implies constraints
+2. Specify computational features
+  - Sensors
+    - pH, DOx, Color, lx, etc
+  - Control (Possibly driven by Fluigi) 
+    - Valve, Assay, etc
+  - Decisions
+    - Feedback
+
+
+## FPGA $\mu$F Suite
+- Partial Reconfiguration
+- GPIO-limited Parallel Sensors
+  - Significant advantage over other computational platforms
+    - Sensor interfaces limited by PHY devices
+  - Drivers for UART, I2C, SPI, Direct IO
+- Hardware acceleration modules
+
+
+## Specification to Implementation?
+- Fluigi?
+- HDL?
