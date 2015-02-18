@@ -14,8 +14,8 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="../../css/reveal.min.css">
-		<link rel="stylesheet" href="../../css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="../../css/reveal.css">
+		<link rel="stylesheet" href="../../css/theme/night.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="../../lib/css/zenburn.css">
@@ -38,8 +38,8 @@
 			<div class="slides">
         <section data-markdown="slides.md"  
                  data-separator="^\n\n\n"  
-                 data-vertical="^\n\n"  
-                 data-notes="^Note:"  
+                 data-separator-vertical="^\n\n"  
+                 data-separator-notes="^Note:"  
                  data-charset="iso-8859-15">
         </section>
 			</div>
@@ -47,7 +47,7 @@
 		</div>
 
 		<script src="../../lib/js/head.min.js"></script>
-		<script src="../../js/reveal.min.js"></script>
+		<script src="../../js/reveal.js"></script>
 
 		<script>
 
@@ -60,7 +60,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
 				math: {
 				     mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
 				     config: 'TeX-AMS_HTML-full' //See http://docs.mathjax.org/en/latest/config-files.html
