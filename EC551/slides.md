@@ -4,7 +4,21 @@
 
 
 
+![Macrofluidics](toilet.jpg)
+
+
+
+![Pipetting](pipetting.jpg)
+
+[Discover Magazine](http://blogs.discovermagazine.com/bodyhorrors/2013/03/20/mouth_pipetting/)
+
+
+
 ![Microfluidic Chip](uf.png)
+
+
+
+![rtl](rtl.jpg)
 
 
 
