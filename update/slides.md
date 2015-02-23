@@ -457,6 +457,25 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 - Hardware acceleration modules
 
 
-## Specification to Implementation?
-- Fluigi?
-- HDL?
+### Initial Experiment
+
+![Experiment](experiment.png)
+
+
+## Notes from meeting
+- What we need:
+  - Sonya's big picture
+  - FluigiWorld (refined flow)
+    - Refine functionality bullets for each part of Fluigi
+    - No one should change the flow without a group meeting 
+  - Each person's revisions
+    - Goals (checkbox of dates of completions)
+    - Integration paths
+  - Come up with a name for our parts
+  - User perspectives
+    - End user
+    - BioE user
+    - 3D user
+    - Wetlab user
+  - Ryan will send the flow made pretty
+  - Ryan will send a "shrunk-down squares" version of flow
