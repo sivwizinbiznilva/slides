@@ -479,3 +479,25 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
     - Wetlab user
   - Ryan will send the flow made pretty
   - Ryan will send a "shrunk-down squares" version of flow
+
+
+
+# 9 March 2015
+
+
+![flow](fluigi_flow_jpg.jpg)
+
+
+![Sonya](sonya_block.jpg)
+
+
+![Ryan](ryan_block.jpg)
+
+
+![Cassie](cassie_block.jpg)
+
+
+![Aaron](aaron_block.jpg)
+
+
+![wetlab](wetlab_block.jpg)
