@@ -83,12 +83,12 @@
 | Atlas Scientific DOX Stamp | - | 1 | $0 |
 | Atlas Scientific RGB Sensor | - | 1 | $0 |
 | [Hitec HS-645MG Servo](http://www.amazon.com/Hitec-32645S-HS-645MG-Torque-Metal/dp/B003T6RSVQ/ref=sr_1_1?ie=UTF8&qid=1424281100&sr=8-1&keywords=hs-645mg) | $29.14 | 2 | $58.28 |
-| RSA48-2HS-48 48 Tooth 48 Pitch Servo Mount Gear | $4.88 | 2 | $9.76 |
+| [RSA48-2HS-48 48 Tooth 48 Pitch Servo Mount Gear](https://www.servocity.com/html/48_pitch_hitec_servo_gears.html#.VO9YUDUrr7A) | $4.88 | 2 | $9.76 |
 | [McMaster 7854K12 2' brass gear rack 48p 20d PA 1/8" face](http://www.mcmaster.com/#catalog/121/1106/=vyqxny) | $31.98 | 1 | $31.98 |
 | [McMaster 91772A144 1/4" 6-32 Machine Screws](http://www.mcmaster.com/#catalog/121/3001/=vyr01f) | $4.55 | 1 | $4.55 |
 | [McMaster 91772A148 1/2" 6-32 Machine Screws](http://www.mcmaster.com/#catalog/121/3001/=vyr1d3) | $4.49 | 1 | $4.49 |
 | [McMaster 91772A146 3/8" 6-32 Machine Screws](http://www.mcmaster.com/#catalog/121/3001/=vyr1kl) | $4.49 | 1 | $4.49 |
-| Norm-Ject Luer Lock Syringe (3ml) | - | - | - |
+| [Norm-Ject Luer Lock Syringe (3ml)](https://www.air-tite-shop.com/p-15-norm-ject-luer-lock-syringe.aspx) | $19.25 | 1 box of 100 | $19.25 |
 
 
 
