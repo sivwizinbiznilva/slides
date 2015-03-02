@@ -485,6 +485,17 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 # 9 March 2015
 
 
+- Fluigi Primitives
+  - Ports
+  - Channels
+  - Valves (3D)
+  - Valves (lith)
+  - Cell Trap
+  - Mixer
+  - Rotary Mixer
+  - Sensing chamber
+
+
 ![flow](fluigi_flow_jpg.jpg)
 
 
