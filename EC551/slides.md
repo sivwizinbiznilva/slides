@@ -4,8 +4,10 @@
 
 
 
-![Macrofluidics](toilet.jpg)
+#19 Feb 2015
 
+
+![Macrofluidics](toilet.jpg)
 
 
 ![Pipetting](pipetting.jpg)
@@ -13,19 +15,15 @@
 [Discover Magazine](http://blogs.discovermagazine.com/bodyhorrors/2013/03/20/mouth_pipetting/)
 
 
-
 ![Microfluidic Chip](uf.png)
-
 
 
 ![rtl](rtl.jpg)
 
 
-
 ### Goal of the project:
 - Apply the computational power of an FPGA to the microfluidic domain 
 - Specifically create $\mu$F support hardware for an open-source platform
-
 
 
 ### Why should you care?
@@ -34,12 +32,10 @@
 ![Expensive](cost.png)
 
 
-
 ### Why should you care?
 - No real-time batch processing
 
 ![Array](array.png)
-
 
 
 ### Proposed library of support hardware:
@@ -52,11 +48,9 @@
     - Flow
 
 
-
 ### High-Level Diagram
 
 ![top-level](top.png)
-
 
 
 ### Initial Experiment
@@ -64,11 +58,9 @@
 ![Experiment](experiment.png)
 
 
-
 ### Final Demo
 
 ![Final](final.png)
-
 
 
 ### H/W Needs (Total Price = $152.55)
@@ -91,7 +83,6 @@
 | [Norm-Ject Luer Lock Syringe (3ml)](https://www.air-tite-shop.com/p-15-norm-ject-luer-lock-syringe.aspx) | $19.25 | 1 box of 100 | $19.25 |
 
 
-
 ### Biggest Worries
 - Syringe pump!
   - Acquisition of equipment
@@ -100,14 +91,12 @@
 - Fabrication of microfluidic chips
 
 
-
 ### Fallback Plan
 - If no $\mu$F chips
   - Use test tubes for demo
 - If no syringe pump
   - Weep
   - Gold plate parallel sensor interface
-
 
 
 ### Timeline
@@ -124,3 +113,21 @@
   - Characterize system
 - May 
   - Demo!
+
+
+
+#26 March 2015
+
+
+###Current Commercial Solutions*
+![Comm Solution](comsol.png)
+[*Elveflow](http://www.elveflow.com/microfluidic-flow-control-products/pressure-controller)
+
+[*Fluigent](http://www.fluigent.com/microfluidic-flow-control-system/)
+
+
+###Our Solution
+![Our Solution](oursol.png)
+
+
+###What We Have Working
