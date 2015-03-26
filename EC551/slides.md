@@ -131,3 +131,34 @@
 
 
 ###What We Have Working
+![Experiment](experiment.png)
+
+
+###What We Have Working
+- Verilog Modules
+  - Servo Module $\unicode{10004}$
+  - GPIO UART Tx Module $\unicode{10004}$
+  - GPIO UART Rx Module $\unicode{10004}$
+  - pH Data Parsing $\unicode{10004}$
+  - DOX Data Parsing $\unicode{11036}$
+  - LUX Data Parsing $\unicode{11036}$
+  - LCD Display $\unicode{11036}$
+  - Simple Valve Control Module  $\unicode{10004}$
+  - Complex Valve Controller (feedback) $\unicode{11036}$
+
+
+###What We Have Working
+- Syringe Pump
+  - Preliminary 3D Printed Parts $\unicode{10004}$
+  - Final 3D Printed Parts $\unicode{11036}$
+  - Syringe Pump Mounting $\unicode{11036}$
+
+
+###Worries
+- Characterization
+- Actual microfluidic chip
+
+
+###What we need to do
+- Characterize
+- Integrate
