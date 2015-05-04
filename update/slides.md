@@ -521,27 +521,27 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 # 4 May 2015
 
 
-| Task | Status |
-| :-- | :-: |
-| Electronic Sensor List | $\unicode{9745}$ |
-| Electronic Actuator List | $\unicode{9745}$ |
-| Electronic Hardware List | $\unicode{9745}$ |
-| Flow Diagram | $\unicode{9745}$ |
-| pH Sensing Update | $\unicode{9745}$ |
-| Twitter Integration | $\unicode{9745}$ |
-| FPGA HW Utilization Details | $\unicode{9744}$ |
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Electronic Sensor List | $\unicode{9745}$ |$\unicode{9745}$ |
+| Electronic Actuator List | $\unicode{9745}$ |$\unicode{9745}$ |
+| Electronic Hardware List | $\unicode{9745}$ |$\unicode{9745}$ |
+| Flow Diagram | $\unicode{9745}$ |$\unicode{9745}$ |
+| pH Sensing Update | $\unicode{9745}$ |$\unicode{9745}$ |
+| Twitter Integration | $\unicode{9745}$ |$\unicode{9745}$ |
+| FPGA HW Utilization Details | $\unicode{9744}$ |$\unicode{9745}$ |
 
 
 | Task | Status |
 | :-- | :-: |
-| Channel Chomp Website | $\unicode{9744}$ |
-| FluigiCAD Design Wizard Mockup | $\unicode{9744}$ |
-| Status of Wetlab Experiments | $\unicode{9745}$ |
-| Modular Electronic Chassis Design | $\unicode{9744}$ |
-| Summary of 18 March Office Meeting | $\unicode{9745}$ |
-| List of Graduation Requirements | $\unicode{9744}$ |
-| RPC Qual Details | $\unicode{9745}$ |
-| Air Force Staff Meeting Demo | $\unicode{9745}$ |
+| Channel Chomp Website | $\unicode{9744}$ |$\unicode{9745}$ |
+| FluigiCAD Design Wizard Mockup | $\unicode{9744}$ |$\unicode{9745}$ |
+| Status of Wetlab Experiments | $\unicode{9745}$ |$\unicode{9745}$ |
+| Modular Electronic Chassis Design | $\unicode{9744}$ |$\unicode{9745}$ |
+| Summary of 18 March Office Meeting | $\unicode{9745}$ |$\unicode{9745}$ |
+| List of Graduation Requirements | $\unicode{9744}$ |$\unicode{9745}$ |
+| RPC Qual Details | $\unicode{9745}$ |$\unicode{9745}$ |
+| Air Force Staff Meeting Demo | $\unicode{9745}$ |$\unicode{9745}$ |
 
 
 ### Sensor List
