@@ -532,8 +532,8 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 | FPGA HW Utilization Details | $\unicode{9744}$ |$\unicode{9745}$ |
 
 
-| Task | Status |
-| :-- | :-: |
+| Task | Status | Updated |
+| :-- | :-: | :-: |
 | Channel Chomp Website | $\unicode{9744}$ |$\unicode{9745}$ |
 | FluigiCAD Design Wizard Mockup | $\unicode{9744}$ |$\unicode{9745}$ |
 | Status of Wetlab Experiments | $\unicode{9745}$ |$\unicode{9745}$ |
