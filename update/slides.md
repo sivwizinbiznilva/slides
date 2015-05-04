@@ -515,3 +515,167 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 
 
 [PowerPoint Link](fluigi_flow.odp)
+
+
+
+# 4 May 2015
+
+
+| Task | Status |
+| :-- | :-: |
+| Electronic Sensor List | $\unicode{9745}$ |
+| Electronic Actuator List | $\unicode{9745}$ |
+| Electronic Hardware List | $\unicode{9745}$ |
+| Flow Diagram | $\unicode{9745}$ |
+| pH Sensing Update | $\unicode{9745}$ |
+| Twitter Integration | $\unicode{9745}$ |
+| FPGA HW Utilization Details | $\unicode{9744}$ |
+
+
+| Task | Status |
+| :-- | :-: |
+| Channel Chomp Website | $\unicode{9744}$ |
+| FluigiCAD Design Wizard Mockup | $\unicode{9744}$ |
+| Status of Wetlab Experiments | $\unicode{9745}$ |
+| Modular Electronic Chassis Design | $\unicode{9744}$ |
+| Summary of 18 March Office Meeting | $\unicode{9745}$ |
+| List of Graduation Requirements | $\unicode{9744}$ |
+| RPC Qual Details | $\unicode{9745}$ |
+| Air Force Staff Meeting Demo | $\unicode{9745}$ |
+
+
+### Sensor List
+
+| Sensor | Demo  | Module in Library |
+| :-: | :-: | :-: |
+| pH | $\unicode{9744}$$\unicode{9744}$$\unicode{9745}$$\unicode{9745}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9745}$$\unicode{9744}$|
+| Color | $\unicode{9745}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| LUX | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| Fluorescence | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| DOX | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| Pressure | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| Conductivity |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| Temperature |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| ORP | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+| Flow |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |  $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |
+
+(FPGA, $\mu$C, RPI, PC)
+
+
+# Actuator List 
+| Device | Demo  | SCAD Files | Control Software | 
+| :---: | :---: | :---: | :---: |
+| Klavins Syringe Pump | $\unicode{9744}$$\unicode{9745}$$\unicode{9744}$$\unicode{9744}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$|$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$|
+| MIT Syringe Pump | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$|
+| Open Syringe Pump | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ | $\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$ |$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$$\unicode{9744}$|
+
+(FPGA, $\mu$C, RPI, PC)
+
+
+###Electronic Hardware List
+| Device | Acquired | Price |
+| :---: | :---: | 
+| PC | $\unicode{9745}$ | |
+| Arduino MEGA | $\unicode{9745}$ ||
+| MSP430 | $\unicode{9745}$ ||
+| Basys3 FPGA | $\unicode{9745}$ ||
+| NEMA 11 Motor | $\unicode{9745}$ | |
+| NEMA 17 Motor | $\unicode{9745}$ | |
+| HiTEC 645MG Servo | $\unicode{9745}$ ||
+| Atlas Serial Debugger | $\unicode{9745}$ ||
+| Atlas pH Stamp | $\unicode{9745}$ ||
+
+
+##Electronic Hardware List (cntd)
+| Device | Acquired | Price |
+| :---: | :---: | 
+| Atlas DOX Stamp | $\unicode{9745}$ ||
+| Atlas Conductivity Stamp | $\unicode{9744}$ |$52|
+| Atlas ORP Stamp | $\unicode{9744}$ |$34|
+| Atlas Temp Probe | $\unicode{9744}$ |$22|
+| Atlas RGB/LUX Probe | $\unicode{9745}$ ||
+| Atlas Flow Stamp | $\unicode{9744}$ |$34|
+| DC ppv Flow Meter | $\unicode{9744}$ |$??|
+| Atlas Pressure Sensor | $\unicode{9744}$ |$350\*|
+
+
+###Channel Chomp Flow
+![artifacts](chomp_artifacts.png)
+
+
+##Voigt XOR
+![Voigt XOR](voigt_xor.png)
+
+
+##pH Sensing Goal (Input)
+![Input Node](input.png)
+From 17 November 2014 Meeting
+
+
+##pH Sensing Goal (Output)
+![Output Node](output.png)
+From 17 November 2014 Meeting
+
+
+##pH Sensing Goal (New Output)
+![New Output Node](new_output.png)
+
+
+##Overall Experiment 
+![CIDAR Voigt](cidar_voigt.png)
+
+
+##pH Sensing Update
+
+| Test | Hypothesis | Status | Projection |
+| :-: | :-: | :-: | :-: | :-:|
+| Cleaning protocol using reconditioning solution | Solution will kill bacteria | 2x Unsuccessful tests | Reject hypothesis |
+| Cleaning protocol using bleach | Bleach will kill bacteria | 6x Successful tests | Accept hypothesis |
+| DVL1 | pH $\unicode{8733}$ $c(Lactose)^{-1}$ | 1x Successful test | Accept hypothesis | 
+| pConst-LacZ | pH $\unicode{8733}$ $c(Lactose)^{-1}$ | 1x Successful Test with strong promoter | Accept Hypothesis | 
+
+
+## pH Sensing Update (Continued)
+| Test | Hypothesis | Status | Projection |
+| :-: | :-: | :-: | :-: | :-:|
+| pR10LacZ (Modular Version of DVL1) | pH $\unicode{8733}$ $c(Lactose)^{-1}$ | 2x Successful Tests | Accept Hypothesis | 
+| pBad - LacZ (pBADLacZ:J024mAraC) | pH$\unicode{8595}$ inducible by Ara | Cloning complete by 5/7 | Test by 5/8 |
+| pTet - LacZ (pTetLacZ:J024mTetR) | pH$\unicode{8595}$ inducible by aTc | Cloning complete by 5/7 | Test by 5/8 | 
+| pRhl - YFP | Express YFP induced by RhlI | Voigt plasmids plated in wetlab | Test when sequence verified  |
+
+
+##Twitter Integration Status
+
+- Both Input and Output integration has been publicly demonstrated
+
+
+##FPGA Integration
+![Integration](fpga_int.png)
+
+
+##Channel Chomp Website
+- No Progress
+
+
+##FluigiCAD Design Wizard Mockup
+- No Progress
+
+
+##Chassis Design
+- No Progress
+
+
+##Office Meeting Summary
+- Essence captured in this presentation
+
+
+##Graduation Requirements
+- All boxes checked?
+
+
+##Qual Details
+- 15 May
+- Committee:
+  - Joshi
+  - Karpovsky
+  - Cassandras
