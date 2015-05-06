@@ -523,9 +523,9 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 
 | Task | Status | Updated |
 | :-- | :-: | :-: |
-| Electronic Sensor List | $\unicode{9745}$ |$\unicode{9745}$ |
-| Electronic Actuator List | $\unicode{9745}$ |$\unicode{9745}$ |
-| Electronic Hardware List | $\unicode{9745}$ |$\unicode{9745}$ |
+| Electronic Sensor List | $\unicode{9989}$ |$\unicode{9745}$ |
+| Electronic Actuator List | $\unicode{9940}$ |$\unicode{9745}$ |
+| Electronic Hardware List | $\unicode{128036}$ |$\unicode{9745}$ |
 | Flow Diagram | $\unicode{9745}$ |$\unicode{9745}$ |
 | pH Sensing Update | $\unicode{9745}$ |$\unicode{9745}$ |
 | Twitter Integration | $\unicode{9745}$ |$\unicode{9745}$ |
