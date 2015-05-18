@@ -523,8 +523,8 @@ Nature editorial, 2010, "Ten years of synergy," _Nature_ 463, 269-270
 
 | Task | Status | Updated |
 | :-- | :-: | :-: |
-| Electronic Sensor List | $\unicode{9989}$ |$\unicode{9745}$ |
-| Electronic Actuator List | $\unicode{9940}$ |$\unicode{9745}$ |
+| Electronic Sensor List | $\unicode{128161}$ |$\unicode{9745}$ |
+| Electronic Actuator List | $\unicode{128161}$ |$\unicode{9745}$ |
 | Electronic Hardware List | $\unicode{128036}$ |$\unicode{9745}$ |
 | Flow Diagram | $\unicode{9745}$ |$\unicode{9745}$ |
 | pH Sensing Update | $\unicode{9745}$ |$\unicode{9745}$ |
@@ -679,3 +679,135 @@ From 17 November 2014 Meeting
   - Joshi
   - Karpovsky
   - Cassandras
+
+
+
+# 18 May 2015
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Electronic Sensor List | $\unicode{128161}$ |$\unicode{9989}$ |
+| Electronic Actuator List | $\unicode{128161}$ |$\unicode{9989}$ |
+| Electronic Hardware List | $\unicode{128161}$ |$\unicode{9989}$ |
+| Flow Diagram | $\unicode{9989}$ |$\unicode{9940}$ |
+| pH Sensing Update | $\unicode{128161}$ |$\unicode{9989}$ |
+| Twitter Integration | $\unicode{9989}$ |$\unicode{9940}$ |
+| FPGA HW Utilization Details | $\unicode{9989}$ |$\unicode{9940}$ |
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Channel Chomp Website | $\unicode{9940}$ |$\unicode{9940}$ |
+| FluigiCAD Design Wizard Mockup | $\unicode{9940}$ |$\unicode{9940}$ |
+| Status of Wetlab Experiments | $\unicode{128161}$ |$\unicode{9989}$ |
+| Modular Electronic Chassis Design | $\unicode{128161}$ |$\unicode{9989}$ |
+| Summary of 18 March Office Meeting | $\unicode{9989}$ |$\unicode{9940}$ |
+| List of Graduation Requirements | $\unicode{128161}$ |$\unicode{9940}$ |
+| RPC Qual Details | $\unicode{9989}$ |$\unicode{9940}$ |
+| Air Force Staff Meeting Demo | $\unicode{9989}$ |$\unicode{9940}$ |
+
+
+### Sensor List
+
+| Sensor | Demo  | Module in Library |
+| :-: | :-: | :-: |
+| pH | $\unicode{9940}$$\unicode{9940}$$\unicode{9989}$$\unicode{9989}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9989}$$\unicode{128161}$|
+| Color | $\unicode{128161}$$\unicode{128161}$$\unicode{128161}$$\unicode{128161}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| LUX | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Fluorescence | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| DOX | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Pressure | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Conductivity |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Temperature |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| ORP | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Flow |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+
+(FPGA, $\mu$C, RPI, PC)
+
+
+# Actuator List 
+| Device | Demo  | SCAD Files | Control Software | 
+| :---: | :---: | :---: | :---: |
+| Klavins Syringe Pump | $\unicode{9940}$$\unicode{9989}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|
+| MIT Syringe Pump | $\unicode{9940}$$\unicode{128161}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|
+| Open Syringe Pump | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|
+
+(FPGA, $\mu$C, RPI, PC)
+
+
+###Electronic Hardware List
+| Device | Acquired | Price |
+| :---: | :---: | 
+| PC | $\unicode{9989}$ | $?? |
+| Arduino MEGA | $\unicode{9989}$ | $45 |
+| MSP430 | $\unicode{9989}$ | $10 |
+| Basys3 FPGA | $\unicode{9989}$ | $75 |
+| NEMA 11 Motor | $\unicode{9989}$ | $15 |
+| NEMA 17 Motor | $\unicode{9989}$ | $18 |
+| HiTEC 645MG Servo | $\unicode{9989}$ | $25 |
+| Atlas Serial Debugger | $\unicode{9989}$ |$18|
+| Atlas pH Stamp | $\unicode{9989}$ |$34|
+
+
+##Electronic Hardware List (cntd)
+| Device | Acquired | Price |
+| :---: | :---: | 
+| Atlas DOX Stamp | $\unicode{9989}$ | $40|
+| Atlas Conductivity Stamp | $\unicode{9940}$ |$52|
+| Atlas pH Probe | $\unicode{9989}$ |$72|
+| Atlas ORP Stamp | $\unicode{9940}$ |$34|
+| Atlas Temp Probe | $\unicode{9940}$ |$22|
+| Atlas RGB/LUX Probe | $\unicode{9989}$ |$48|
+| Atlas Flow Stamp | $\unicode{9940}$ |$34|
+| DC ppv Flow Meter | $\unicode{9940}$ |$??|
+| Atlas Pressure Sensor | $\unicode{9940}$ |$350\*|
+
+
+###Channel Chomp Flow
+![artifacts](chomp_artifacts.png)
+
+
+##Voigt XOR
+![Voigt XOR](voigt_xor.png)
+
+
+##pH Sensing Goal (Input)
+![Input Node](input.png)
+From 17 November 2014 Meeting
+
+
+##pH Sensing Goal (Output)
+![Output Node](output.png)
+From 17 November 2014 Meeting
+
+
+##pH Sensing Goal (New Output)
+![New Output Node](new_output.png)
+
+
+##Overall Experiment 
+![CIDAR Voigt](cidar_voigt.png)
+
+
+##pH Sensing Update
+
+| Test | Hypothesis | Status | Projection |
+| :-: | :-: | :-: | :-: | :-:|
+| Cleaning protocol using reconditioning solution | Solution will kill bacteria | 2x Unsuccessful tests | Reject hypothesis |
+| Cleaning protocol using bleach | Bleach will kill bacteria | 6x Successful tests | Accept hypothesis |
+| DVL1 | pH $\unicode{8733}$ $c(Lactose)^{-1}$ | 1x Successful test | Accept hypothesis | 
+| pConst-LacZ | pH $\unicode{8733}$ $c(Lactose)^{-1}$ | 1x Successful Test with strong promoter | Accept Hypothesis | 
+
+
+## pH Sensing Update (Continued)
+| Test | Hypothesis | Status | Projection |
+| :-: | :-: | :-: | :-: | :-:|
+| pR10LacZ (Modular Version of DVL1) | pH $\unicode{8733}$ $c(Lactose)^{-1}$ | 2x Successful Tests | Accept Hypothesis | 
+| pBad - LacZ (pBADLacZ:J024mAraC) | pH$\unicode{8595}$ inducible by Ara | Cloning complete by 5/7 | Test by 5/8 |
+| pTet - LacZ (pTetLacZ:J024mTetR) | pH$\unicode{8595}$ inducible by aTc | Cloning complete by 5/7 | Test by 5/8 | 
+| pRhl - YFP | Express YFP induced by RhlI | Voigt plasmids plated in wetlab | Test when sequence verified  |
+
+
+##Chassis Design
+- Syringe Pump Chassis 
