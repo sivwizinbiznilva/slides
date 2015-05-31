@@ -811,3 +811,78 @@ From 17 November 2014 Meeting
 
 ##Chassis Design
 - Syringe Pump Chassis 
+
+
+
+# 1 June 2015
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Requisition Summary | $\unicode{9989}$ | $\unicode{9989}$|
+| Electronic Sensor List | $\unicode{128161}$ |$\unicode{9989}$ |
+| Electronic Actuator List | $\unicode{128161}$ |$\unicode{9989}$ |
+| pH Sensing Update | $\unicode{128161}$ |$\unicode{9989}$ |
+| Status of Wetlab Experiments | $\unicode{128161}$ |$\unicode{9989}$ |
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Flow Diagram | $\unicode{9989}$ |$\unicode{9940}$ |
+| Twitter Integration | $\unicode{9989}$ |$\unicode{9940}$ |
+| FPGA HW Utilization Details | $\unicode{9989}$ |$\unicode{9940}$ |
+| RPC Qual Details | $\unicode{9989}$ |$\unicode{9940}$ |
+| Summary of 18 March Office Meeting | $\unicode{9989}$ |$\unicode{9940}$ |
+| Air Force Staff Meeting Demo | $\unicode{9989}$ |$\unicode{9940}$ |
+| Electronic Hardware List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Modular Electronic Chassis Design | $\unicode{128161}$ |$\unicode{9940}$ |
+| List of Graduation Requirements | $\unicode{128161}$ |$\unicode{9940}$ |
+| Channel Chomp Website | $\unicode{9940}$ |$\unicode{9940}$ |
+| FluigiCAD Design Wizard Mockup | $\unicode{9940}$ |$\unicode{9940}$ |
+
+
+### Requisition Summary
+
+![inventory](inventory.png)
+[link to google doc](https://docs.google.com/spreadsheets/d/1X3tJJIS7qwcB0Jbxkm4pJE9CA4kKhgeU56RBTPd8e1A/edit?usp=sharing)
+
+
+### Sensor List
+
+| Sensor | Demo  | Module in Library |
+| :-: | :-: | :-: |
+| pH | $\unicode{9940}$$\unicode{9940}$$\unicode{9989}$$\unicode{9989}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9989}$$\unicode{128161}$|
+| Color | $\unicode{128161}$$\unicode{128161}$$\unicode{128161}$$\unicode{9989}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{128161}$ |
+| LUX | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Fluorescence | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| DOX | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Pressure | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Conductivity |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Temperature |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| ORP | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+| Flow |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |  $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$ |
+
+(FPGA, $\mu$C, RPI, PC)
+
+
+# Actuator List 
+| Device | Demo  | SCAD Files | Control Software | 
+| :---: | :---: | :---: | :---: |
+| Klavins Syringe Pump | $\unicode{9940}$$\unicode{9989}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|
+| MIT Syringe Pump | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ |$\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$|
+| Open Syringe Pump | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ |$\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$|
+
+(FPGA, $\mu$C, RPI, PC)
+
+
+##pH Sensing Goal (Input)
+![Input Node](input.png)
+From 17 November 2014 Meeting
+
+
+##pH Sensing Goal (Output)
+![New Output Node](new_output.png)
+
+
+##Overall Experiment 
+![CIDAR Voigt](cidar_voigt.png)
