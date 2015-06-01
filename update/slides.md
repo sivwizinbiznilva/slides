@@ -847,6 +847,15 @@ From 17 November 2014 Meeting
 [link to google doc](https://docs.google.com/spreadsheets/d/1X3tJJIS7qwcB0Jbxkm4pJE9CA4kKhgeU56RBTPd8e1A/edit?usp=sharing)
 
 
+### Hardware Agnostic Fluid Monitoring and Control
+- [Spa Sitter](http://hackaday.com/2015/06/01/poolhot-tub-monitoring-and-data-collection/)
+  - $\mu$C
+- [Aquarimeter](https://github.com/aquarimeter/aquarimeter)
+  - RPi
+- [OpenHydroponics](https://github.com/evandavey/OpenHydroponics)
+  - PC/$\mu$C
+
+
 ### Sensor List
 
 | Sensor | Demo  | Module in Library |
