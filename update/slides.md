@@ -895,3 +895,89 @@ From 17 November 2014 Meeting
 
 ##Overall Experiment 
 ![CIDAR Voigt](cidar_voigt.png)
+
+
+
+# 15 June 2015
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Electronic Actuator List | $\unicode{128161}$ |$\unicode{9989}$ |
+| pH Sensing Update | $\unicode{128161}$ |$\unicode{9989}$ |
+| Status of Wetlab Experiments | $\unicode{128161}$ |$\unicode{9989}$ |
+| Channel Chomp Software/Website | $\unicode{128161}$ |$\unicode{9989}$ |
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Electronic Sensor List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Requisition Summary | $\unicode{9989}$ | $\unicode{9940}$|
+| Flow Diagram | $\unicode{9989}$ |$\unicode{9940}$ |
+| Twitter Integration | $\unicode{9989}$ |$\unicode{9940}$ |
+| FPGA HW Utilization Details | $\unicode{9989}$ |$\unicode{9940}$ |
+| RPC Qual Details | $\unicode{9989}$ |$\unicode{9940}$ |
+| Summary of 18 March Office Meeting | $\unicode{9989}$ |$\unicode{9940}$ |
+| Air Force Staff Meeting Demo | $\unicode{9989}$ |$\unicode{9940}$ |
+| Electronic Hardware List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Modular Electronic Chassis Design | $\unicode{128161}$ |$\unicode{9940}$ |
+| List of Graduation Requirements | $\unicode{128161}$ |$\unicode{9940}$ |
+| FluigiCAD Design Wizard Mockup | $\unicode{9940}$ |$\unicode{9940}$ |
+
+
+# Control Software
+- Concurrency
+- Accuracy
+- Precision
+- Control
+
+
+# The competition
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fatt2Mw1GPc" frameborder="0" allowfullscreen></iframe>
+
+
+# Experiment
+![colormix](colormix.png)
+
+
+# Valves
+![valves](valves.png)
+
+
+# Actuator List 
+| Device | Demo  | SCAD Files | Control Software | 
+| :---: | :---: | :---: | :---: |
+| Klavins Syringe Pump | $\unicode{9940}$$\unicode{9989}$$\unicode{9940}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$$\unicode{9940}$|
+| MIT Syringe Pump | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ |$\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$|
+| Open Syringe Pump | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ | $\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$ |$\unicode{9940}$$\unicode{128161}$$\unicode{128161}$$\unicode{9940}$|
+
+(FPGA, $\mu$C, RPI, PC)
+
+
+#TweeColi Paper 
+- Intellectual Contributions
+  - Division of labor
+  - Managing complexity
+- Scientific Contributions
+  - Modular pH reporting
+
+
+#TweeColi Paper Structure
+- Intro
+  - Highlight contributions
+- Experiment
+- Results
+- Implications
+
+
+##pH Sensing Goal (Input)
+![Input Node](input.png)
+From 17 November 2014 Meeting
+
+
+##pH Sensing Goal (Output)
+![New Output Node](new_output.png)
+
+
+##Overall Experiment 
+![CIDAR Voigt](cidar_voigt.png)
