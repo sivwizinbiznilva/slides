@@ -981,3 +981,49 @@ From 17 November 2014 Meeting
 
 ##Overall Experiment 
 ![CIDAR Voigt](cidar_voigt.png)
+
+
+
+# 11 July 2015
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| End to End Demo | $\unicode{128161}$ |$\unicode{9989}$ |
+| Status of Wetlab Experiments | $\unicode{128161}$ |$\unicode{9989}$ |
+| FluigiCAD Design Wizard Mockup | $\unicode{9940}$ |$\unicode{9940}$ |
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Electronic Actuator List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Wetlab pH Sensing Update | $\unicode{9989}$ |$\unicode{9940}$ |
+| Electronic Hardware List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Modular Electronic Chassis Design | $\unicode{128161}$ |$\unicode{9940}$ |
+| List of Graduation Requirements | $\unicode{128161}$ |$\unicode{9940}$ |
+| Electronic Sensor List | $\unicode{128161}$ |$\unicode{9940}$ |
+
+
+# Constraint Flow
+![Constraint Flow](constraint_flow.png)
+
+
+# Software Roles
+![Software Roles](software_roles.png)
+
+
+# Deliverables
+- uC Firmware
+- Control Software
+- Syringe Pump 3D Print Files
+- Reaction Chamber 3D Print Files
+- Bill of Materials
+- Assembly Instructions
+
+
+## Status of Wetlab Experiments
+- Tim's Visit
+  - Interested in arbitrary wetware
+  - Conform anything to SBS
+  - Ability to import into EVOware
+  - PCR Plate and other devices
