@@ -1027,3 +1027,50 @@ From 17 November 2014 Meeting
   - Conform anything to SBS
   - Ability to import into EVOware
   - PCR Plate and other devices
+
+
+
+# 27 July 2015
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| OWL End to End Demo | $\unicode{128161}$ |$\unicode{9989}$ |
+| PMMA uF | $\unicode{128161}$ |$\unicode{9989}$ |
+| Fluigi Wetware + TECAN | $\unicode{128161}$ |$\unicode{9989}$ |
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| Initial End to End Demo | $\unicode{128161}$ |$\unicode{9940}$ |
+| FluigiCAD Design Wizard Mockup | $\unicode{128161}$ |$\unicode{9940}$ |
+| Electronic Actuator List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Electronic Hardware List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Modular Electronic Chassis Design | $\unicode{128161}$ |$\unicode{9940}$ |
+| List of Graduation Requirements | $\unicode{128161}$ |$\unicode{9940}$ |
+| Electronic Sensor List | $\unicode{128161}$ |$\unicode{9940}$ |
+
+
+# OWL End to End Demo
+- Conversation with Evan
+  - API is robust
+  - Idea is solid
+  - Population-based measurements is still useful
+- Conversation with Swati
+  - Switches are already built
+  - Express GFP
+  - Many promoters to choose from
+- Next step
+  - Build and test [fluorometer](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3715229/)
+
+
+# Fluigi Wetware + TECAN
+- Tim gave requirements for a PCR plate we can build
+- Integrates with native TECAN equipment
+
+
+# PMMA uF
+- Goal is to build a transposer
+  - PMMA is a well-documented alternative to casting PDMS
+- Next step:
+  - Learning CNC toolchain
