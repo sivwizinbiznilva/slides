@@ -1074,3 +1074,34 @@ From 17 November 2014 Meeting
   - PMMA is a well-documented alternative to casting PDMS
 - Next step:
   - Learning CNC toolchain
+
+
+
+# 11 August 2015
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| PMMA/PC uF | $\unicode{128161}$ |$\unicode{9989}$ |
+
+
+| Task | Status | Updated |
+| :-- | :-: | :-: |
+| FluigiCAD Design Wizard Mockup | $\unicode{128161}$ |$\unicode{9940}$ |
+| OWL End to End Demo | $\unicode{128161}$ |$\unicode{9940}$ |
+| Initial End to End Demo | $\unicode{128161}$ |$\unicode{9940}$ |
+| Fluigi Wetware + TECAN | $\unicode{128161}$ |$\unicode{9940}$ |
+| Electronic Actuator List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Electronic Hardware List | $\unicode{128161}$ |$\unicode{9940}$ |
+| Modular Electronic Chassis Design | $\unicode{128161}$ |$\unicode{9940}$ |
+| List of Graduation Requirements | $\unicode{128161}$ |$\unicode{9940}$ |
+| Electronic Sensor List | $\unicode{128161}$ |$\unicode{9940}$ |
+
+
+# PMMA/PC uF
+
+- Goal: Build a transposer using polymer microfabrication
+- Last step: Learn CNC toolchain
+- Currently: Testing fabrication techniques
+  - Problem: Bond between PC and PDMS not strong enough to actuate a valve
+- Next step: Use milled jig to equally distribute pressure
