@@ -1105,3 +1105,50 @@ From 17 November 2014 Meeting
 - Currently: Testing fabrication techniques
   - Problem: Bond between PC and PDMS not strong enough to actuate a valve
 - Next step: Use milled jig to equally distribute pressure
+
+
+
+# 11 February 2016
+## _Transposer_
+
+
+## Status Last Meeting
+- Demos:
+  - Control Software
+  - Subset of 3-input routing
+
+
+## Tasks Given Last Meeting
+- Update [overleaf document](https://www.overleaf.com/3907845tyckpj)
+- Make video of software working in conjunction with microfluidic chip 
+- Make video of all 3-input routing combinations
+
+
+## Software Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xLLO4aCLrXM" frameborder="0" allowfullscreen></iframe>
+
+
+## All 3-Input Combinations
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gXzS6WSEdbk" frameborder="0" allowfullscreen></iframe>
+
+
+## Decision Points
+- What is the extent of the paper's scope?
+- Should I fabricate any other devices?
+
+
+
+# 11 February 2016
+## _TXTL_/MakerFluidics
+
+
+#Goals:
+- Test movement of genetic logic gates using centrifugal microfluidics fabricated and controlled via MakerFluidics
+- Use a standard plate reader to read output of TXTL circuit executed in a MakerFluidic chip
+
+
+# Device
+![spin](spinTXTL.png)
+
+
+![spinLabel](spinTXTL_lab.png)
